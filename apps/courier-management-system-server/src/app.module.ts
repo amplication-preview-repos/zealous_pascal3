@@ -8,6 +8,7 @@ import { FeedbackModule } from "./feedback/feedback.module";
 import { CourierModule } from "./courier/courier.module";
 import { AdminModule } from "./admin/admin.module";
 import { PackageModelModule } from "./packageModel/packageModel.module";
+import { UserModule } from "./User/user.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -29,6 +30,7 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     CourierModule,
     AdminModule,
     PackageModelModule,
+    UserModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
